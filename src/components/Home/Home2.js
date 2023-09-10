@@ -19,8 +19,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I guess...🤷🏻‍♂️
+                I am a dedicated <span className="purple">iOS Developer</span> with experience in achieving <span className="purple">tangible results</span> and <span className="purple">cross-team 
+                collaboration.</span> Proactive and excited to partner with like-minded individuals to achieve 
+                goals.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -39,11 +40,11 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Kotlin</b> and
+              with <b className="purple">Kotlin</b>,
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Android Libraries and Frameworks
+                  Modern Android Libraries and Frameworks, and Web Development.
                 </b>
               </i>
             </p>
