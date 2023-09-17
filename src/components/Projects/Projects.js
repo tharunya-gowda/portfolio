@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import OtherProjectCard from "./OtherProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import deetox from "../../Assets/Projects/deetox.png";
+import healify from "../../Assets/Projects/healify.png";
+import blockerX from "../../Assets/Projects/blockerX.png";
+import blockerxLite from "../../Assets/Projects/blockerxLite.png";
+import zenze from "../../Assets/Projects/zenze.png";
 
 function Projects() {
   return (
@@ -20,71 +20,59 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <br></br>
+        <h1 className="project-heading">
+          <strong className="purple">iOS </strong> Projects
+        </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              imgPath={blockerX}
+              title="BlockerX"
+              description="A powerful iOS app that provides advanced porn blocking using VPN technology. In this project I majorly worked on SwiftUI, VPNTunnel, Restful APIs, Handling IAP and Subscriptions."
+              appLink="https://apps.apple.com/us/app/blockerx-porn-blocker-ad-block/id1522854086"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              imgPath={zenze}
+              title="Zenze"
+              description="Zenze is an app that will help users to keep distractive apps away and limit phone time. The app is built using SwiftUI, UIKit, and leveraging Apple's Screentime APIs (Family Controls, Managed Settings, Device Activity)"
+              appLink="https://apps.apple.com/us/app/zenze-limit-phone-time/id6447419790"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              imgPath={blockerxLite}
+              title="BlockerX Lite"
+              description="BlockerX Lite is an app that will help users to keep exlicit content away and block apps and websites time. The app is built using SwiftUI, UIKit, and leveraging Apple's Screentime APIs (Family Controls, Managed Settings, Device Activity)"
+              appLink="https://apps.apple.com/us/app/blockerx-lite-block-apps/id6462085247"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={3} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={healify}
+              title="Healify"
+              description="Healify is a powerful iOS app created to assist individuals who want to stop drinking alcohol built using SwiftUI, UIKit. Healify has all the features you need to achieve your goals. If you need to stop drinking, the app provides a range of tools to help you with your drinking cessation journey.
+              "
+              appLink="https://apps.apple.com/us/app/healify-drinking-cessation-app/id1641046254"              
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+        </Row>
+        <br></br>
+        <h1 className="project-heading">
+          <strong className="purple">Other </strong> Projects
+        </h1>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={3} className="project-card">
+            <OtherProjectCard
+              title="Healify"
+              description="Healify is a powerful iOS app created to assist individuals who want to stop drinking alcohol built using SwiftUI, UIKit. Healify has all the features you need to achieve your goals. If you need to stop drinking, the app provides a range of tools to help you with your drinking cessation journey.
+              "
+              appLink="https://apps.apple.com/us/app/healify-drinking-cessation-app/id1641046254"              
             />
           </Col>
         </Row>
