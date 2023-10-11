@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import myImg from "../../Assets/pic.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,24 +17,10 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-                I am a dedicated <span className="purple">iOS Developer</span> with experience in achieving <span className="purple">tangible results</span> and <span className="purple">cross-team 
-                collaboration.</span> Proactive and excited to partner with like-minded individuals to achieve 
-                goals.
+                I am an energetic <span className="purple">Associate Software Developer</span> with a solid year of experience, actively engaged in  <span className="purple">crafting dynamic solutions</span> using <span className="purple"> Angular TypeScript, Python Django, and Grafana.</span> With a passion for technology and a commitment to innovation, I continuously seek opportunities to apply my diverse expertise in creating impactful software solutions. 
+
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> SwiftUI, Swift, UIKit. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interests are building new &nbsp;
-              <i>
-                <b className="purple">Mobile applications </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  IoT.
-                </b>
-              </i>
+              <br />Proficient in front-end technologies—HTML, CSS, and JavaScript—I build intuitive and engaging user interfaces. My hands-on academic projects have endowed me with fundamental skills in Android app development, enhancing my versatility.
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
@@ -64,7 +48,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/suchithnayaka"
+                  href="https://github.com/tharunya-gowda"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,22 +58,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/suchith-nayaka-06b9821a0/"
+                  href="https://www.linkedin.com/in/tharunya-l-690146209/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/suchith._.nayaka/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
