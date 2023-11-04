@@ -25,7 +25,7 @@ function Projects() {
             <OtherProjectCard
               title="Generic approach toplant leaf disease classification and verification"
               description="Revolutionizing plant disease detection with VGG19, Inception V3, and Inception ResNet v2 models, achieving an impressive 93% accuracy. Our comprehensive approach combines physical plant analysis and crop disease data for robust classification and verification."
-              ghLink="https://github.com/tharunya-gowda/Whoof"              
+              ghLink="https://github.com/tharunya-gowda/PlantDiseaseMLProject"              
             />
           </Col>
           <Col md={3} className="project-card">
